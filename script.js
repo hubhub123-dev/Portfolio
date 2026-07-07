@@ -42,13 +42,12 @@ document.querySelectorAll(".glass, .contact-card").forEach((card) => {
     const rect = card.getBoundingClientRect();
     const x = ((event.clientX - rect.left) / rect.width) * 100;
     const y = ((event.clientY - rect.top) / rect.height) * 100;
-    card.style.background = `
-      radial-gradient(circle at ${x}% ${y}%, rgba(109, 139, 255, 0.14), transparent 34%),
-      linear-gradient(145deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.028))
-    `;
+    card.style.setProperty("--spotlight-x", `${x}%`);
+    card.style.setProperty("--spotlight-y", `${y}%`);
+    card.classList.add("is-pointer-active");
   });
 
   card.addEventListener("pointerleave", () => {
-    card.style.background = "";
+    card.classList.remove("is-pointer-active");
   });
 });
