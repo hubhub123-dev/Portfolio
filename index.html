@@ -1,411 +1,194 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rap Pono | Virtual Assistant Portfolio</title>
-    <meta
-      name="description"
-      content="Premium portfolio of Rap Pono, a Virtual Assistant, Technical Staff, Seafarer, and tech enthusiast based in Surigao City, Philippines."
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>Rap Pono | Virtual Assistant & Technical Support</title>
+    <meta name="description" content="Rap Pono is a reliable Virtual Assistant from the Philippines offering administrative, customer, community, and technical support for remote teams." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rap Pono | Virtual Assistant & Technical Support" />
+    <meta property="og:description" content="Reliable remote support for busy teams—from organized admin work to practical technical help." />
+    <meta property="og:image" content="assets/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="noise" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="#hero" aria-label="Rap Pono home">
-        <span>RP</span>
+      <a class="brand" href="#top" aria-label="Rap Pono, home">
+        <span class="brand-mark">RP</span>
+        <span class="brand-name">Rap Pono</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+        <a href="#support">Services</a>
+        <a href="#proof">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#timeline">Timeline</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
       </nav>
-      <a class="header-action" href="mailto:rappono1097@gmail.com">Hire Me</a>
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-      </button>
+      <a class="button button-small button-dark header-cta" href="mailto:rappono1097@gmail.com?subject=Remote%20work%20opportunity">Let’s talk</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     </header>
 
-    <main>
-      <section class="hero section" id="hero">
-        <div class="hero-bg" aria-hidden="true">
-          <img src="assets/hero-workspace.png" alt="" />
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <div class="availability"><span></span> Available for long-term remote work</div>
+          <h1>Reliable support.<br /><em>Less on your plate.</em></h1>
+          <p class="hero-lead">I’m Rap, a Virtual Assistant in the Philippines who helps busy teams stay organized, responsive, and technically unstuck.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:rappono1097@gmail.com?subject=Remote%20work%20opportunity&body=Hi%20Rap%2C%0A%0AI%20found%20your%20portfolio%20and%20would%20like%20to%20discuss...">Discuss a role <span aria-hidden="true">↗</span></a>
+            <a class="button button-light" href="resume.html">View résumé</a>
+          </div>
+          <div class="quick-facts" aria-label="Key details">
+            <div><strong>Based in</strong><span>Surigao City, PH</span></div>
+            <div><strong>Best fit</strong><span>Ongoing remote support</span></div>
+            <div><strong>Strength</strong><span>Admin + technical</span></div>
+          </div>
         </div>
-        <div class="hero-grid">
-          <div class="hero-copy reveal">
-            <p class="eyebrow">Surigao City, Philippines</p>
-            <h1>Rap Pono</h1>
-            <p class="hero-title">
-              Virtual Assistant | Technical Staff | Tech Enthusiast
-            </p>
-            <p class="hero-intro">
-              Organized, tech-oriented, and ready for work-from-home support roles that
-              need reliable admin help, fast computer handling, clean file systems, and
-              practical technical problem solving.
-            </p>
-            <div class="hero-signal-list" aria-label="Work strengths">
-              <span>Inbox zero</span>
-              <span>Clean files</span>
-              <span>Fast support</span>
-            </div>
-            <div class="hero-actions" aria-label="Portfolio actions">
-              <a class="btn primary" href="resume.html">View Resume</a>
-              <a class="btn ghost" href="#contact">Contact Me</a>
-              <a class="btn subtle" href="#experience">View Experience</a>
+        <div class="hero-visual reveal">
+          <div class="portrait-card">
+            <img src="assets/rap-pono-photo.jpg" alt="Rap Pono outdoors in Surigao" />
+            <div class="portrait-caption">
+              <div><strong>Rap Pono</strong><span>Virtual Assistant</span></div>
+              <span class="verified" aria-label="Profile verified">✓</span>
             </div>
           </div>
+          <div class="floating-note note-one"><span>01</span> Organized admin</div>
+          <div class="floating-note note-two"><span>02</span> Practical tech help</div>
+        </div>
+      </section>
 
-          <aside class="hero-panel glass reveal" aria-label="Profile summary">
-            <div class="portrait-wrap">
-              <img
-                class="portrait"
-                src="assets/rap-pono-photo.jpg"
-                alt="Rap Pono"
-              />
-            </div>
-            <div class="status-line">
-              <span class="pulse"></span>
-              Available for Virtual Assistant and WFH roles
-            </div>
-            <div class="metric-grid">
-              <div>
-                <strong>29</strong>
-                <span>Years Old</span>
-              </div>
-              <div>
-                <strong>2020+</strong>
-                <span>Work History</span>
-              </div>
-              <div>
-                <strong>Tech</strong>
-                <span>Hands-on Focus</span>
-              </div>
-            </div>
-            <div class="profile-chip-list">
-              <span>Admin Support</span>
-              <span>Technical Support</span>
-              <span>Media Editing</span>
-              <span>File Management</span>
-            </div>
-          </aside>
+      <section class="trust-bar" aria-label="Core capabilities">
+        <span>Google Workspace</span><i></i><span>Inbox & calendar</span><i></i><span>Customer support</span><i></i><span>Technical troubleshooting</span>
+      </section>
+
+      <section class="section support" id="support">
+        <div class="section-intro reveal">
+          <p class="eyebrow">How I can help</p>
+          <h2>The day-to-day work gets done—<em>carefully and consistently.</em></h2>
+          <p>Give me the recurring tasks that slow you down. I’ll bring order, clear communication, and dependable follow-through.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="service-number">01</span>
+            <h3>Administrative support</h3>
+            <p>Keep schedules, inboxes, documents, and files accurate and easy to navigate.</p>
+            <ul><li>Calendar & appointment scheduling</li><li>Email and file organization</li><li>Data entry & document preparation</li><li>Online research</li></ul>
+          </article>
+          <article class="service-card feature reveal">
+            <span class="service-number">02</span>
+            <h3>Customer & community support</h3>
+            <p>Help customers and online communities feel heard with prompt, professional replies.</p>
+            <ul><li>Message and comment monitoring</li><li>Customer inquiries & follow-up</li><li>Discord community organization</li><li>Announcements & team coordination</li></ul>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">03</span>
+            <h3>Technical support</h3>
+            <p>Solve everyday computer issues and keep digital workflows moving without the drama.</p>
+            <ul><li>Hardware & software troubleshooting</li><li>General IT support</li><li>Digital file management</li><li>Photo and video editing</li></ul>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">04</span>
+            <h3>Social media assistance</h3>
+            <p>Maintain a consistent presence while keeping engagement organized behind the scenes.</p>
+            <ul><li>Multi-account support</li><li>Content scheduling</li><li>Trend research</li><li>Engagement monitoring</li></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section proof" id="proof">
+        <div class="section-intro reveal">
+          <p class="eyebrow">Experience that transfers</p>
+          <h2>Calm under pressure.<br /><em>Comfortable with systems.</em></h2>
+        </div>
+        <div class="experience-list">
+          <article class="experience-row reveal">
+            <div class="experience-date">2024—Now</div>
+            <div><h3>Seafarer</h3><p>Maritime role</p></div>
+            <p>Strengthened discipline, time management, adaptability, and dependable execution in a high-responsibility environment.</p>
+          </article>
+          <article class="experience-row reveal">
+            <div class="experience-date">2022—2024</div>
+            <div><h3>Technical Staff</h3><p>PDRRMO Surigao</p></div>
+            <p>Supported office systems and equipment through troubleshooting, general IT assistance, photography, videography, and media editing.</p>
+          </article>
+          <article class="experience-row reveal">
+            <div class="experience-date">2021</div>
+            <div><h3>Volunteer Rescue Member</h3><p>Private rescue team</p></div>
+            <p>Practiced responsive teamwork, clear coordination, and calm decision-making during community support activities.</p>
+          </article>
+          <article class="experience-row reveal">
+            <div class="experience-date">2020</div>
+            <div><h3>Administrative Staff</h3><p>Gogo Xpress · 6 months</p></div>
+            <p>Handled office administration, daily task flow, and organized file management in a fast-moving operations setting.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section project-spotlight">
+        <div class="project-copy reveal">
+          <p class="eyebrow">Hands-on project</p>
+          <h2>Building and supporting an online gaming community.</h2>
+          <p>As a developer and community manager for a private FlyFF project, I combined technical curiosity with real community operations—organizing Discord, coordinating contributors, publishing announcements, supporting users, and maintaining an active social presence.</p>
+          <a class="text-link" href="https://github.com/hubhub123-dev" target="_blank" rel="noopener noreferrer">View my GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="project-proof reveal" aria-label="Project responsibilities">
+          <div><span>Community</span><strong>Discord & user support</strong></div>
+          <div><span>Operations</span><strong>Announcements & coordination</strong></div>
+          <div><span>Technical</span><strong>Server files & database basics</strong></div>
+          <div><span>Growth</span><strong>Social media consistency</strong></div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-intro reveal">
+          <p class="eyebrow">Tools & capabilities</p>
+          <h2>Ready to work in the tools<br /><em>your team already uses.</em></h2>
+        </div>
+        <div class="skills-columns">
+          <article class="skill-group reveal"><span>01</span><h3>Workspace</h3><p>Gmail · Google Calendar · Google Drive · Google Sheets · Documents · File management</p></article>
+          <article class="skill-group reveal"><span>02</span><h3>Operations</h3><p>Scheduling · Research · Data entry · Email organization · Customer service · Team coordination</p></article>
+          <article class="skill-group reveal"><span>03</span><h3>Technical</h3><p>Hardware & software troubleshooting · IT support · Basic databases · Server configuration</p></article>
+          <article class="skill-group reveal"><span>04</span><h3>Creative</h3><p>Photo editing · Video editing · Photography · Videography · Social media support</p></article>
         </div>
       </section>
 
       <section class="section about" id="about">
-        <div class="section-heading reveal">
-          <p class="eyebrow">About Me</p>
-          <h2>Reliable support with a technical edge.</h2>
-        </div>
-        <div class="about-layout">
-          <article class="glass content-card reveal">
-            <p>
-              I am a tech-oriented, organized, and hardworking person with experience in
-              administrative work, technical support, file management, computer
-              troubleshooting, media editing, and office-related tasks. I type fast,
-              organize files efficiently, and enjoy working with computers, systems, and
-              online tools.
-            </p>
-            <p>
-              I am a college graduate with a background in Marine Transportation, but my
-              passion has always been technology. I bring a practical, hands-on mindset to
-              virtual assistance, work-from-home opportunities, freelance work, and
-              technical support tasks.
-            </p>
-          </article>
-          <div class="about-stack reveal">
-            <div class="mini-card">
-              <span>Focus</span>
-              <strong>Virtual Assistant / Work From Home</strong>
-            </div>
-            <div class="mini-card">
-              <span>Strength</span>
-              <strong>Organized admin and technical execution</strong>
-            </div>
-            <div class="mini-card">
-              <span>Origin</span>
-              <strong>Born and based in Surigao City</strong>
-            </div>
-          </div>
+        <div class="about-photo reveal"><img src="assets/resume-2x2-photo.jpg" alt="Portrait of Rap Pono" /></div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">A little about me</p>
+          <h2>I learn fast, stay organized, and take ownership.</h2>
+          <p>My path—from office administration and technical support to rescue volunteering and maritime work—has made me adaptable and resourceful. I’m comfortable learning new software, following established workflows, and asking the right questions so work gets done accurately.</p>
+          <p>I’m now looking for a long-term Virtual Assistant or remote administrative role where I can become a dependable part of the team and grow with the business.</p>
+          <div class="about-values"><span>Reliable</span><span>Proactive</span><span>Detail-oriented</span><span>Professional</span></div>
         </div>
       </section>
 
-      <section class="section" id="experience">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Work Experience</p>
-          <h2>Practical experience across admin, rescue, technical, and maritime work.</h2>
+      <section class="contact" id="contact">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Let’s work together</p>
+          <h2>Need reliable help behind the scenes?</h2>
+          <p>Tell me what you need support with and what a great first month would look like. I’ll reply as soon as I can.</p>
         </div>
-        <div class="experience-grid">
-          <article class="glass experience-card reveal">
-            <span>2020</span>
-            <h3>Admin Staff</h3>
-            <p>Gogo Xpress, 6 months</p>
-            <ul>
-              <li>Handled office-related administrative work.</li>
-              <li>Supported organized file handling and daily task flow.</li>
-            </ul>
-          </article>
-          <article class="glass experience-card reveal">
-            <span>2021</span>
-            <h3>Volunteer Rescue Member</h3>
-            <p>Private rescue team</p>
-            <ul>
-              <li>Contributed to team-based rescue and support activities.</li>
-              <li>Built discipline, responsiveness, and calm under pressure.</li>
-            </ul>
-          </article>
-          <article class="glass experience-card feature reveal">
-            <span>2022-2024</span>
-            <h3>Technical Staff</h3>
-            <p>PDRRMO Surigao</p>
-            <ul>
-              <li>Computer hardware and software troubleshooting.</li>
-              <li>Technical support for office systems and equipment.</li>
-              <li>Photography, videography, photo editing, and video editing.</li>
-            </ul>
-          </article>
-          <article class="glass experience-card reveal">
-            <span>2024-Present</span>
-            <h3>Seafarer</h3>
-            <p>Maritime role</p>
-            <ul>
-              <li>Applies discipline, adaptability, and professional reliability.</li>
-              <li>Brings structured work habits from maritime environments.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section class="section education" id="education">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Education</p>
-          <h2>Academic foundation built across Surigao City institutions.</h2>
-        </div>
-        <div class="education-grid">
-          <article class="glass edu-card reveal">
-            <span>2004-2010</span>
-            <h3>Surigao City Pilot School</h3>
-          </article>
-          <article class="glass edu-card reveal">
-            <span>2010-2014</span>
-            <h3>Saint Paul University Surigao</h3>
-          </article>
-          <article class="glass edu-card reveal">
-            <span>2014-2016</span>
-            <h3>Saint Paul University Surigao</h3>
-            <p>Bachelor of Information Technology</p>
-          </article>
-          <article class="glass edu-card reveal">
-            <span>2016-2019</span>
-            <h3>Surigao Education Center</h3>
-            <p>Bachelor of Marine Transportation</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="skills">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Skills</p>
-          <h2>Admin-ready, tech-comfortable, and built for remote support.</h2>
-        </div>
-        <div class="skills-grid" aria-label="Skills list">
-          <div class="glass skill-card reveal"><span class="skill-icon">VA</span><h3>Virtual assistance</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">AD</span><h3>Admin support</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">FO</span><h3>File organization</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">FT</span><h3>Fast typing</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">DE</span><h3>Data entry</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">TS</span><h3>Computer troubleshooting</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">HW</span><h3>Hardware and software support</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">EM</span><h3>Email and document handling</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">VE</span><h3>Video editing</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">PE</span><h3>Photo editing</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">PH</span><h3>Photography</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">VD</span><h3>Videography</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">C++</span><h3>Basic C++ knowledge</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">DB</span><h3>Basic database knowledge</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">GS</span><h3>Game private server development</h3></div>
-          <div class="glass skill-card reveal"><span class="skill-icon">IT</span><h3>Technical support</h3></div>
-        </div>
-      </section>
-
-      <section class="section projects" id="projects">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Side Projects & Interests</p>
-          <h2>Learning through real experiments, systems, and AI-assisted building.</h2>
-        </div>
-        <article class="project-note reveal">
-            <h3>Honest note</h3>
-            <p>
-              I am not claiming to be an expert programmer. I am a tech enthusiast and
-              vibe coder with basic C++ and database knowledge, learning through real
-              hands-on projects and AI-assisted development tools.
-            </p>
-          </article>
-        <div class="project-grid">
-          <article class="glass project-card reveal">
-            <span class="project-icon">GS</span>
-            <h3>FlyFF private server</h3>
-            <p>FlyFF MMORPG private server development, setup, configuration, and hands-on server management.</p>
-          </article>
-          <article class="glass project-card reveal">
-            <span class="project-icon">CFG</span>
-            <h3>Game server configuration</h3>
-            <p>Editing server files, settings, and environments to keep game systems running properly.</p>
-          </article>
-          <article class="glass project-card reveal">
-            <span class="project-icon">C++</span>
-            <h3>Basic C++ editing</h3>
-            <p>Learning by adjusting existing code, understanding logic, and making small practical edits.</p>
-          </article>
-          <article class="glass project-card reveal">
-            <span class="project-icon">DB</span>
-            <h3>Basic database management</h3>
-            <p>Working with database basics for server projects, records, and organized data handling.</p>
-          </article>
-          <article class="glass project-card reveal">
-            <span class="project-icon">BI</span>
-            <h3>Website and business ideas</h3>
-            <p>Exploring useful website concepts and small business ideas connected to tech and remote work.</p>
-          </article>
-          <article class="glass project-card reveal">
-            <span class="project-icon">AI</span>
-            <h3>Vibe coding with AI</h3>
-            <p>Using AI-assisted development to learn faster, test ideas, and build practical web projects.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section timeline-section" id="timeline">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Timeline</p>
-          <h2>Education and career journey from 2004 to present.</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-line" aria-hidden="true"></div>
-          <article class="timeline-item reveal">
-            <time>2004-2010</time>
-            <div class="glass">
-              <h3>Surigao City Pilot School</h3>
-              <p>Early academic foundation in Surigao City.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2010-2014</time>
-            <div class="glass">
-              <h3>Saint Paul University Surigao</h3>
-              <p>Continued secondary education and personal development.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2014-2016</time>
-            <div class="glass">
-              <h3>Bachelor of Information Technology</h3>
-              <p>Built early exposure to computers, systems, and programming concepts.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2016-2019</time>
-            <div class="glass">
-              <h3>Bachelor of Marine Transportation</h3>
-              <p>Graduated from Surigao Education Center with maritime training.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2020</time>
-            <div class="glass">
-              <h3>Admin Staff at Gogo Xpress</h3>
-              <p>Worked with administrative tasks and office support for 6 months.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2021</time>
-            <div class="glass">
-              <h3>Private Rescue Team Volunteer</h3>
-              <p>Supported rescue-related team work and community service.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2022-2024</time>
-            <div class="glass">
-              <h3>Technical Staff at PDRRMO Surigao</h3>
-              <p>Provided technical support, troubleshooting, photography, videography, and editing.</p>
-            </div>
-          </article>
-          <article class="timeline-item reveal">
-            <time>2024-Present</time>
-            <div class="glass">
-              <h3>Seafarer</h3>
-              <p>Current maritime role with professional discipline and adaptability.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section contact" id="contact">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Let's connect for Virtual Assistant and work-from-home opportunities.</h2>
-        </div>
-        <div class="contact-layout">
-          <form class="glass contact-form reveal" action="mailto:rappono1097@gmail.com" method="post" enctype="text/plain">
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Your name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" placeholder="your@email.com" required />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="5" placeholder="Tell me about the opportunity" required></textarea>
-            </label>
-            <button class="btn primary" type="submit">Send Message</button>
-          </form>
-
-          <div class="contact-links reveal">
-            <a class="contact-card" href="tel:+639705336997">
-              <span>Phone</span>
-              <strong>+63 970 533 6997</strong>
-            </a>
-            <a class="contact-card" href="mailto:rappono1097@gmail.com">
-              <span>Email</span>
-              <strong>rappono1097@gmail.com</strong>
-            </a>
-            <a class="contact-card" href="https://www.facebook.com/rapismynamee" target="_blank" rel="noopener">
-              <span>Facebook</span>
-              <strong>facebook.com/rapismynamee</strong>
-            </a>
-            <a class="contact-card" href="https://github.com/placeholder" target="_blank" rel="noopener">
-              <span>GitHub</span>
-              <strong>Temporary placeholder</strong>
-            </a>
-            <a class="contact-card" href="https://www.linkedin.com/in/placeholder" target="_blank" rel="noopener">
-              <span>LinkedIn</span>
-              <strong>Temporary placeholder</strong>
-            </a>
-            <a class="contact-card" href="resume.html">
-              <span>Resume</span>
-              <strong>View printable resume</strong>
-            </a>
-          </div>
+        <div class="contact-actions reveal">
+          <a class="button button-primary" href="mailto:rappono1097@gmail.com?subject=Remote%20work%20opportunity">Email Rap <span aria-hidden="true">↗</span></a>
+          <button class="button button-outline" type="button" data-copy-email>Copy email</button>
+          <p><a href="https://v2.onlinejobs.ph/jobseekers/info/4930726" target="_blank" rel="noopener noreferrer">OnlineJobs.ph profile ↗</a> · <a href="https://github.com/hubhub123-dev" target="_blank" rel="noopener noreferrer">GitHub ↗</a></p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>(c) <span id="year"></span> Rap Pono. Built for premium remote-work applications.</p>
+      <a class="brand" href="#top"><span class="brand-mark">RP</span><span class="brand-name">Rap Pono</span></a>
+      <p>Virtual Assistant · Surigao City, Philippines</p>
+      <p>© <span id="year"></span> Rap Pono</p>
     </footer>
-
+    <div class="mobile-cta"><a href="mailto:rappono1097@gmail.com?subject=Remote%20work%20opportunity">Let’s talk <span aria-hidden="true">↗</span></a></div>
+    <div class="toast" role="status" aria-live="polite">Email copied</div>
     <script src="script.js"></script>
   </body>
 </html>
